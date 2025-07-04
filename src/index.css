@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Custom styles for Material UI in dark mode */
+.dark .MuiPaper-root {
+  @apply bg-gray-800 text-gray-100;
+}
+.dark .MuiTableCell-root {
+  @apply text-gray-100;
+}
+.dark .MuiTextField-root {
+  @apply bg-gray-700;
+}
+.dark .MuiInputBase-input {
+  @apply text-gray-100;
+}
+.dark .MuiInputLabel-root {
+  @apply text-gray-100;
+}
+.dark .MuiButton-contained {
+  @apply bg-primary;
+}
+.dark .MuiButton-contained:hover {
+  @apply bg-blue-700;
+}
