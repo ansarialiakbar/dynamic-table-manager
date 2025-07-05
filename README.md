@@ -112,11 +112,11 @@ git push -u origin main
 
 **2. Deploy to Netlify:**
 
-**.**Log in to app.netlify.com.
+**.** Log in to app.netlify.com.
 
-**.**Click New site from Git > GitHub > Select dynamic-table-manager.
+**.** Click New site from Git > GitHub > Select dynamic-table-manager.
 
-**.**Configure:
+**.** Configure:
 
 **Branch:** main
 
@@ -125,27 +125,27 @@ git push -u origin main
 **Publish Directory:** dist
 
 
-**.**Click Deploy site.
+**.** Click Deploy site.
 Netlify assigns a URL (e.g., https://random-name.netlify.app). Customize it under Site configuration > Site details > Change site name.
 
 
 ## Contributing
 
-**1.**Fork the repository.
+**1.** Fork the repository.
 
-**2.**Create a branch:
+**2.** Create a branch:
 ```
 git checkout -b feature/your-feature
 ```
 
 
-**3.**Commit changes:
+**3.** Commit changes:
 ```
 git commit -m "Add your feature"
 ```
 
 
-**4.**Push and create a pull request:
+**4.** Push and create a pull request:
 ```
 git push origin feature/your-feature
 ```
