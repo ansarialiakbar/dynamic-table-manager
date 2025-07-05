@@ -81,6 +81,9 @@ dynamic-table-manager/
 ├── postcss.config.js
 └── README.md
 ```
+## Screenshot 
+
+![UI Screenshot](src/assets/ui-screenshot.png)
 
 ## Deployment on Netlify
 
